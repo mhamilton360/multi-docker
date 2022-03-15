@@ -16,7 +16,7 @@ after_success:
   # Log in to docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 
-# Take these images and push them to DockerHub
+  # Take these images and push them to DockerHub
   - docker push mhamilton360/multi-client
   - docker push mhamilton360/multi-nginx
   - docker push mhamilton360/multi-server
