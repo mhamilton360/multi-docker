@@ -1,4 +1,6 @@
 sudo: required
+
+# Generic language - nodejs, java etc.
 language: generic
 
 services:
